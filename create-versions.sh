@@ -6,6 +6,7 @@
 # -dPDFSETTINGS=/prepress (high quality, color preserving, 300 dpi imgs)
 # -dPDFSETTINGS=/default  (almost identical to /screen)
 # Source: https://tex.stackexchange.com/questions/14429/pdftex-reduce-pdf-size-reduce-image-quality
+#         https://tex.stackexchange.com/questions/18987/how-to-make-the-pdfs-produced-by-pdflatex-smaller
 
 FILE=$1
 
