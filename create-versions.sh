@@ -18,7 +18,8 @@ for x in /screen /ebook /printer /prepress
 do
   echo "Generating ${x:1} version..."
   gs -sDEVICE=pdfwrite \
-     -dCompatibilityLevel=1.4 \
+     -dCompatibilityLevel=1.5 \
+     -dPrinted=false \
      -dPDFSETTINGS=$x \
      -dNOPAUSE \
      -dQUIET \
